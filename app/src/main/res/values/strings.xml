@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Basketball Royale</string>
+    <string name="free_throw">Free Throw</string>
+    <string name="pt2">+2 Point</string>
+    <string name="pt3">+3 Point</string>
+    <string name="reset">Reset</string>
+    <string name="winText">The Winner is : </string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="zero">0</string>
+    <string name="winA">The Winner is : Team A</string>
+    <string name="winB">The Winner is : Team B</string>
+</resources>
