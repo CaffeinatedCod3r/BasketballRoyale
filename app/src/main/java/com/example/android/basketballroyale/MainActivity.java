@@ -11,7 +11,7 @@ public class MainActivity extends AppCompatActivity {
 
     int scoreTeamA = 0;
     int scoreTeamB = 0;
-
+    String disabledButtonColor = "#FFCAD4DE";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +66,7 @@ public class MainActivity extends AppCompatActivity {
         displayScoreTeamB();
     }
 
+    
     /*
      * Winner Calculation
      */
@@ -93,12 +94,12 @@ public class MainActivity extends AppCompatActivity {
             /*
              * Change background color of disabled button
              */
-            addThreeTeamA.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addTwoTeamA.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addOneTeamA.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addThreeTeamB.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addTwoTeamB.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addOneTeamB.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
+            addThreeTeamA.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addTwoTeamA.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addOneTeamA.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addThreeTeamB.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addTwoTeamB.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addOneTeamB.setBackgroundColor(Color.parseColor(disabledButtonColor));
         }
         if (scoreTeamB >= 21) {
             winner.setText(R.string.winB);
@@ -115,12 +116,12 @@ public class MainActivity extends AppCompatActivity {
             /*
              * Change background color of disabled button
              */
-            addThreeTeamA.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addTwoTeamA.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addOneTeamA.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addThreeTeamB.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addTwoTeamB.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
-            addOneTeamB.setBackgroundColor(Color.parseColor("#FFCAD4DE"));
+            addThreeTeamA.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addTwoTeamA.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addOneTeamA.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addThreeTeamB.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addTwoTeamB.setBackgroundColor(Color.parseColor(disabledButtonColor));
+            addOneTeamB.setBackgroundColor(Color.parseColor(disabledButtonColor));
         }
     }
 
